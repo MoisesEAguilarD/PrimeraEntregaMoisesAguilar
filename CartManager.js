@@ -4,7 +4,7 @@ import { nanoid } from 'nanoid';
 
 class CartManager {
     constructor() {
-        this.filePath = path.join(path.resolve(), '../data/carts.json');
+        this.filePath = path.join(path.resolve(), 'data/carts.json');
     }
 
     async _readFile() {
