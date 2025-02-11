@@ -29,5 +29,15 @@
     "stock": 3,
     "category": "shorts",
     "thumbnails": ""
+  },
+  {
+    "id": "TbNVdXq4p_bQEUMvwVNwS",
+    "title": "lentes 1",
+    "description": "lentes prueba 1",
+    "price": 45,
+    "status": true,
+    "stock": 2,
+    "category": "lentes",
+    "thumbnails": ""
   }
 ]

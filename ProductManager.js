@@ -21,7 +21,7 @@ class ProductManager {
     }
 
     // GET "/"
-    async getAll() {
+    async getProducts() {
         return await this._readFile();
     }
 
