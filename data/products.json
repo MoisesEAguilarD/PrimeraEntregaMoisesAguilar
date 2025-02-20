@@ -1,16 +1,5 @@
 [
   {
-    "id": "1",
-    "title": "Remera 1",
-    "description": "Remera prueba 1",
-    "code": "",
-    "price": 50,
-    "status": true,
-    "stock": 100,
-    "category": "remeras",
-    "thumbnail": ""
-  },
-  {
     "id": "v37BCv66twiSxzF0N5R-x",
     "title": "remera 2",
     "description": "remera prueba 2",

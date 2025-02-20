@@ -32,7 +32,7 @@ class ProductManager {
     }
 
     // POST "/"
-    async add(product) {
+    async addProduct(product) {
         const products = await this._readFile();
         const newProduct = { 
             id: nanoid(),  // ID unico con nanoid
@@ -55,7 +55,7 @@ class ProductManager {
     }
 
     // DELETE "/:pid"
-    async delete(id) {
+    async deleteProduct(id) {
         const products = await this._readFile();
         const filteredProducts = products.filter((p) => p.id !== id);
         if (products.length === filteredProducts.length) return false;
